@@ -1,0 +1,11 @@
+Location,Time,Vehicles,Accident,Congestion_Level,Deaths,Injuries,Weather,Date
+Ring Road,08:00,120,1,High,3,5,Clear,23-08-2023
+NH-8,18:00,300,3,Very High,1,10,Rainy,17-08-2024
+Ring Road,09:00,150,0,Medium,2,2,Clear,24-08-2025
+NH-8,19:00,320,2,Very High,2,8,Rainy,22-08-2022
+MG Road,08:30,200,0,High,0,1,Clear,25-08-2023
+MG Road,18:30,350,1,Very High,1,6,Rainy,16-08-2024
+Dwarka Mor,09:15,100,0,Medium,4,0,Clear,26-08-2023
+Dwarka Mor,19:15,280,4,Very High,0,3,Rainy,19-08-2024
+Connaught Place,08:45,250,1,High,2,7,Clear,21-08-2023
+Connaught Place,18:45,400,0,Very High,1,12,Rainy,27-08-2024

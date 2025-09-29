@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saarthi – Traffic Analysis</title>
+  <style>
+    body {font-family: Arial, sans-serif; margin: 0;padding: 0;background: #f7f7f7;color: #333;}
+    header {background: #2d3e50;color: white;padding: 15px 20px;text-align: center;}
+    header h1 {margin: 0;font-size: 1.8rem;}
+    nav { background: #1b2836; padding: 10px; text-align: center;}
+    nav a {color: white;text-decoration: none;margin: 0 15px;font-size: 1rem;}
+    nav a:hover { text-decoration: underline;}
+    section {padding: 20px; max-width: 900px; margin: auto;}
+    h2 {color: #2d3e50;}
+    .card {background: white; padding: 15px; margin: 15px 0;border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    footer {text-align: center;background: #2d3e50;color: white;padding: 10px;margin-top: 20px;}
+    iframe {background: white; border: 1px solid #ddd; border-radius: 4px;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Saarthi – Traffic Analysis</h1>
+    <p>Smart Insights for Safer Roads</p>
+  </header>
+  <nav>
+    <a href="#overview">Overview</a>
+    <a href="#insights">Key Insights</a>
+    <a href="#tables"> Data</a>
+    <a href="#visuals">Visualizations</a>
+    <a href="#team">Our Team</a>
+  </nav>
+  <section id="overview">
+    <div class="card">
+      <h2>Project Overview</h2>
+      <p>
+        Saarthi Traffic Analysis project focuses on analyzing urban traffic data 
+        to identify congestion hotspots, accident-prone areas, and the effects 
+        of weather conditions. Our aim is to provide meaningful insights that 
+        can help improve road safety and traffic management.
+      </p>
+    </div>
+  </section>
+  <section id="insights">
+    <div class="card">
+      <h2>Key Insights</h2>
+      <ul style="list-style: none; padding-left: 0;">
+        <li>🔹 Accident counts by location and weather conditions</li>
+        <li>🔹 Analysis of injuries and deaths</li>
+        <li>🔹 Congestion level patterns across major routes</li>
+      </ul>
+    </div>
+  </section>
+  <section id="tables">
+    <div class="card">
+      <h2>Data</h2>
+      <h3>Accidents per Location</h3>
+      <iframe src="accidents_table.html" width="100%" height="200"></iframe>
+      <h3>Injuries & Deaths per Location</h3>
+      <iframe src="injury_death.html" width="100%" height="200"></iframe>
+      <h3>Combined Analysis (Accidents, Injuries, Deaths)</h3>
+      <iframe src="combined.html" width="100%" height="250"></iframe>
+    </div>
+  </section>
+  <section id="visuals">
+    <div class="card">
+      <h2>Visualizations</h2>
+      <p>Graphs generated from backend analysis:</p>
+      <img src="accidents.png" alt="Accidents per Location" width="100%">
+      <img src="weather.png" alt="Accidents in Rainy vs Clear Weather" width="100%" style="margin-top:10px;">
+      <img src="congestion.png" alt="Congestion Levels" width="100%" style="margin-top:10px;">
+    </div>
+  </section>
+  
+  <section id="team">
+    <div class="card">
+      <h2>Our Team</h2>
+      <p><strong>Team Saarthi</strong> – Passionate learners aiming to bring data-driven insights to real-world challenges.</p>
+      <p>Members: 🔹Shiva Awasthi(Leader)<a href="https://www.linkedin.com/in/shiva-awasthi-659681372?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bq8%2Btrc6WQsWkxwoPYyQOAg%3D%3D"target="_blank">(Linkedin)</a><br>
+        🔹Samarth Sharma<a href="https://www.linkedin.com/in/samarth-sharma-03567936a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"target="_blank">(LinkedIn)</a><br>
+        🔹 Dev Kaushik <a href="https://www.linkedin.com/in/dev-kaushik-b4668a379?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">(LinkedIn)</a><br> 
+      </p>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 Team Saarthi | Traffic Analysis Project</p>
+  </footer>
+</body>
+</html>
+
+
