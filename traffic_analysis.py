@@ -35,6 +35,7 @@ plt.title("Accidents, Injuries & Deaths per Location")
 plt.ylabel("Count")
 plt.gca().yaxis.set_major_locator(mticker.MaxNLocator(integer=True))
 plt.legend()
+plt.tight_layout()
 fig.savefig("accidents.png")
 plt.close(fig)
 # Accidents by Weather (Pie Chart)
@@ -54,8 +55,4 @@ plt.xlabel("Congestion Level")
 plt.gca().yaxis.set_major_locator(mticker.MaxNLocator(integer=True))
 fig3.savefig("congestion.png")
 plt.close(fig3)
-
-
-
-
 
